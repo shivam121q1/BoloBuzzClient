@@ -116,8 +116,6 @@ const Verify: NextPage = () => {
             Can't find your code? Check your spam folder!
           </Text>
         </Flex>
-
-        
       </Stack>
     </Center>
   )

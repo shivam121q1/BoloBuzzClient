@@ -127,7 +127,6 @@ const Register: NextPage = () => {
             </form>
           </Paper>
         </Flex>
-
       </Stack>
     </Center>
   )

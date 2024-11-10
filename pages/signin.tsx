@@ -127,8 +127,6 @@ const Signin: NextPage = () => {
             </form>
           </Paper>
         </Flex>
-
-        
       </Stack>
     </Center>
   )

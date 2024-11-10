@@ -170,14 +170,14 @@ const Workspaces: NextPage = () => {
                       color={getColorByIndex(index)}
                       radius="xl"
                     >
-                      {organisation.name[0].toUpperCase()}
+                      {organisation?.name?.[0]?.toUpperCase() || ''}
                     </Avatar>
                     <Flex direction="column">
                       <Text c="white" transform="capitalize">
-                        {organisation.name}
+                        {organisation?.name || 'Unnamed Organisation'}
                       </Text>
                       <Text size="xs" transform="capitalize">
-                        {organisation.coWorkers.length} members
+                        {organisation?.coWorkers?.length || 0} members
                       </Text>
                     </Flex>
                   </Flex>
